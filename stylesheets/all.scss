@@ -4,7 +4,7 @@
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities";
+@import "./helpers/utilities";
 
 
 // Layout & components
@@ -46,5 +46,6 @@
 
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
-
-@import "./components/navbar"
+@import "./components/deco-line";
+@import "./components/header";
+@import "./components/custom-btn"
